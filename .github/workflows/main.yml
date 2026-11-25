@@ -11,3 +11,9 @@ jobs:
     steps:
       - name: print
         run: echo "Welcome Mohamed in git hub actions"
+
+      - name: checkout
+        uses: actions/checkour@v7.0.1
+
+      - name: list
+        run: ls -la
