@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: print
-      run: echo "Welcome Mohamed in git hub actions"
+        run: echo "Welcome Mohamed in git hub actions"
