@@ -13,7 +13,7 @@ jobs:
         run: echo "Welcome Mohamed in git hub actions"
 
       - name: checkout
-        uses: actions/checkour@v7.0.1
+        uses: actions/checkout@v7.0.1
 
       - name: list
         run: ls -la
